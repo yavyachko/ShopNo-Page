@@ -1,0 +1,465 @@
+@media (max-device-width: 700px) {
+  h2{
+    font-size:7vw;
+  }
+  .description{
+    font-size:3vw;
+  }
+  .featuredWorks {
+    height: max-content;
+    max-height: 1950px;
+    padding-bottom: 20px;
+  }
+
+  .galleryItems {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-height:none;
+    height:max-content;
+    padding-bottom: 8vw;
+    max-height: 1800px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .imgContainer {
+    width: 80vw;
+    height: 80vw;
+  }
+
+  .ourServices {
+    height: max-content;
+    padding-bottom: 20px;
+  }
+
+  .cardBlock {
+    width: 80vw;
+    flex-direction: column;
+    height: max-content;
+    flex-wrap: nowrap;
+  }
+
+  .card h6 {
+    font-size: 3vw;
+  }
+
+  .card p {
+    font-size: 2.2vw;
+  }
+
+  .card button {
+    font-size: 2.9vw;
+  }
+
+  .card:nth-child(1) {
+    max-width:none;
+    width: 80vw;
+  }
+
+  .card:nth-child(2) {
+    width: 80vw;
+    max-width: none;
+  }
+
+  .card:nth-child(3) {
+    width: 80vw;
+    max-width: none;
+  }
+
+  .card:nth-child(4) {
+    width: 80vw;
+    max-width:none;
+  }
+
+  .card:nth-child(5) {
+    width: 80vw;
+    max-width:none;
+  }
+
+  .card:nth-child(6) {
+    width: 80vw;
+    max-width:none;
+  }
+
+  .smallTeam {
+    height: max-content;
+    padding-bottom: 20px;
+  }
+
+  .teamBlock {
+    height: max-content;
+  }
+
+  .teammate {
+    width: 40vw;
+    height: 40vw;
+  }
+
+  .mateDescribe {
+    text-align: left;
+    display: none;
+    position: absolute;
+    top: 16vw;
+    left: 1.5vw;
+    background-color: #6df6eb;
+    max-width: 335px;
+    max-height: 241px;
+    width: 30vw;
+    height: 23vw;
+    padding: 2.4vw;
+    margin: 0px;
+  }
+
+  .mateDescribe h6 {
+    font-family: Merriweather;
+    font-weight: 700;
+    font-size: 2vw;
+    display: inline-block;
+    margin: 0px;
+  }
+
+  .mateDescribe span {
+    font-family: Merriweather;
+    font-weight: 400;
+    font-size: 1.7vw;
+    color: #787878;
+    font-style: italic;
+    margin: 0px;
+    align-self: flex-end;
+  }
+
+  .mateDescribe p {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 1.5vw;
+    opacity: 0.7;
+    color: black;
+    margin: 0.7vw 0;
+  }
+
+  .mateDescribe button {
+    background-color: transparent;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    padding: 0px;
+    display: inline;
+    height: 2.5vw;
+  }
+
+  .mateDescribe img {
+    width: 2.5vw;
+    display: inline;
+    height: 2.5vw;
+  }
+
+  .whatTheySays {
+    height: max-content;
+    padding-bottom: 50px;
+  }
+
+  .block2 {
+    height: max-content;
+  }
+
+  .block2-1 {
+    width: 45vw;
+    min-height: 45vw;
+  }
+
+  .block2-1 img {
+    max-width: 320px;
+    max-height: 410px;
+    width: 45vw;
+    height: 45vw;
+  }
+
+  #viewport {
+    max-width: 320px;
+    max-height: 410px;
+    width: 45vw;
+    height: 45vw;
+    overflow: hidden;
+  }
+
+  .slider {
+    position: relative;
+    transition: 500ms;
+    max-width: 320px;
+    max-height: 410px;
+    width: 45vw;
+    height: 45vw;
+    display: flex;
+    justify-content: start;
+    flex-wrap: nowrap;
+  }
+
+  .slide {
+    max-width: 320px;
+    max-height: 410px;
+    width: 45vw;
+    height: 45vw;
+  }
+
+  .slide img {
+    max-width: 320px;
+    max-height: 410px;
+    width: 45vw;
+    height: 45vw;
+    object-fit: cover;
+    object-position: top;
+  }
+  .block2-2{
+    height: 45vw;
+    max-height: none;
+  }
+  .block2-2-1 {
+    height: 45vw;
+    max-height: none;
+    padding-top: 5vw;
+  }
+  .block2-2-1 h6{
+    font-family: Merriweather;
+    font-weight: 700;
+    font-size: 2.6vw;
+    display: inline-block;
+    margin:0px;
+  }
+  .block2-2-1 span{
+    align-self:flex-end;
+  }
+  .block2-2-1 span{
+    font-family: Merriweather;
+    font-weight: 400;
+    font-size: 2vw;
+    color:#787878;
+    font-style: italic;
+    margin: 0px;
+    display: block;
+  }
+  .block2-2-1 p{
+    font-family:Raleway;
+    font-weight: 400;
+    font-size: 1.9vw;
+    opacity: 0.7;
+    color:black;
+  }
+  .buttonBlock{
+    height: max-content;
+    width:14vw;
+  }
+  .buttonBlock button{
+    width:5vw;
+    height:5vw;
+  }
+  .sliderIndex{
+    max-width:52px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 5vw;
+  }
+  .index{
+    max-width:10px;
+    max-height: 10px;
+    width:1.2vw;
+    height: 1.2vw;
+    background-color:#d0d0d0;
+    border-radius:3px;
+  }
+  .formBlock{
+    height: max-content;
+    padding: 20px;
+    flex-direction: column;
+  }
+  form{
+    width:80vw;
+    height:60vw;
+    margin-bottom: 10px;
+  }
+  .addres{
+    max-width: none;
+    width:80vw;
+    padding: 10px;
+    height:60vw;
+  }
+  .addres ul{
+    list-style: none;
+    padding:0px ;
+    font-size: 3vw;
+  }
+  #map{
+    padding: 0;
+    max-width: none;
+    width:75vw;
+    max-width: 450px;
+    max-height: 302px;
+    height:17vw ;
+  }
+  form textarea{
+    width:76vw;
+    max-width: none;
+    font-size:4vw ;
+    margin-bottom: 10px;
+  }
+  form input{
+    font-size:4vw;
+  }
+  form button{
+    background-color:#6df6eb;
+    max-width:none;
+    max-height:53px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 4vw;
+    color:rgba(0, 0, 0, 0.7);
+    width: 76vw;
+    height: 10vw;
+    border:none;
+    padding: 0;
+  }
+  footer{
+    height: max-content;
+  }
+  footer h6{
+    font-family: Raleway;
+    font-weight: 400;
+    font-size:5vw;
+    color:white;
+    opacity: 0.8;
+    margin:6.5vw 0 1.4vw;
+  }
+  footer p{
+    font-family: Raleway;
+    font-weight: 500;
+    font-size:4vw;
+    color:white;
+    opacity: 0.4;
+    margin-top: 3vw;
+  }
+  footer  button{
+    max-width:45px;
+    max-height: 40px;
+    background-color:#8a8a8a ;
+    box-shadow: none;
+    border:none;
+    border-radius: 2vw;
+    width: 15vw;
+    height:15vw;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width:200px;
+    width:60vw;
+  }
+  footer img{
+    filter: invert(100%);
+    max-width: 16px;
+    max-height: 16px;
+    height:15vw;
+    width:15vw;
+    display: inline-block;
+  }
+  @media (max-device-width:576px) {
+    .aboutUs{
+      max-width:1440px;
+      background-color:#f8fafa;
+      text-align: center;
+      height: 190vw;
+      padding-bottom: 50px;
+      max-height: none;
+    }
+    .container1{
+      max-width:1140px;
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      justify-content: space-between;
+      width:80vw;
+      height:max-content;
+    }
+    .block1-1{
+      max-height: none;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+      width:80vw;
+      height:fit-content;
+      
+      margin:0 auto 20px;
+    }
+    .block1-2{
+      text-align: left;
+      width:80vw;
+      height: max-content;
+      margin:0;
+    }
+    .block1-2 h3{
+      font-size: 4vw;
+    }
+    .block1-2 h4{
+      font-size: 3vw;
+    }
+    .block1-2 p{
+      font-size: 2.7vw;
+    }
+    .block1-2 h3:nth-child(1){
+      margin-top: 0px;
+    }
+    #viewport1 {
+     width:80vw;
+     height: max-content;
+     overflow: hidden;
+     margin:0 auto;
+    }
+   .slider1 {
+     position: relative;
+     transition: 500ms;
+     max-width: 392px;
+     display: block;
+     width:80vw;
+     height:max-content;
+     display: flex;
+     justify-content: start;
+     flex-wrap: nowrap;
+   }
+   .slide1 {
+     max-width: 392px;
+     display: block;
+     width:80vw;
+     height:max-content
+   }
+   .slide1 img {
+     max-width: 392px;
+     display: block;
+     width:80vw;
+     height:90vw;
+     object-position: center;
+     object-fit:cover;
+   }
+   .sliderIndex1{
+    max-width:52px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 10vw;
+  
+  }
+   .index1{
+     max-width:10px;
+     max-height: 10px;
+     width: 2vw;
+     height: 2vw;
+     background-color:#d0d0d0;
+     border-radius:3px;
+   }
+  }
+}
